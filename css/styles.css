@@ -91,18 +91,67 @@ img {
     padding: 20px;
     width: 270px;
 }
+.btn-block.btn-green {
+    width: 100%;
+    padding: 30px;
+    background: #00c781;
+    color: #fff;
+}
 .btn-green:hover,
 .btn-green:active,
 .btn-green:focus {
     background: #00ab6f;
 }
+.btn-white {
+    background: #fff;
+    color: #00c781;
+    font-size: 12px;
+    padding: 20px;
+    width: 270px;
+}
+.btn-white:hover,
+.btn-white:active,
+.btn-white:focus {
+    background: #f1f1f1;
+    color: #00ab6f;
+}
+
 .pb-35 {
     padding-bottom: 35px;
 }
 .mb-100 {
     margin-bottom: 100px;
 }
+.form-orders {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background-color: #00c781;
+    padding: 50px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.form .form-control {
+    border: 0;
+    border-bottom: 1px solid #bfbfbf;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background: transparent;
+    margin-bottom: 15px;
+}
+.form label {
+    /*color: #1c2e3d;*/
+    font-size: 11px;
+    text-transform: uppercase;
+}
 /* HEADER */
+
+.logo img {
+    width: auto;
+    height: 75px;
+}
 .header-bg {
     width: 100%;
     background-image: url(../img/header.jpg);
@@ -112,9 +161,19 @@ img {
     background-size: cover;
     color: #fff;
 }
+.header-bg.header-bg-provider {
+    background-image: url(../img/prov.jpg);
+}
+.header-bg.header-bg-provider .header-opacity,
+.header-bg.header-bg-opportunities .header-opacity{
+    padding-bottom: 80px;
+}
+.header-bg.header-bg-opportunities{
+    background-image: url(../img/iv-opportunities.jpg);
+}
 .header-opacity {
     width: 100%;
-    background: rgba(0, 0, 0, .2);
+    background: rgba(0, 0, 0, .3);
 }
 header h4 {
     padding: 20px 0 40px;
@@ -398,6 +457,46 @@ input[type="text"].search {
 footer .btn{
     width: 100%;
 }
+.card-process {
+    padding: 15px;
+}
+.process-icon {
+    height: 32px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.bg-black {
+    background: #111f2a;
+    padding: 60px 0;
+}
+.how-it-works li{
+    display: block;
+    padding: 10px;
+}
+.how-it-works .list-circle{
+    width: 68px;
+    height: 68px;
+    margin: 40px auto;
+}
+.how-it-works .list-circle img {
+    height: 46px;
+}
+.form_register-opportunities {
+    max-width: 500px;
+    width: 100%;
+    background-color: #e3e3e3;
+    padding-top: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.form_register-opportunities .form-group {
+    padding: 0 30px;
+}
+.form_register-opportunities label {
+    color: #1c2e3d;
+}
 @media all and (min-width:1600px) {
     .container {
         max-width: 1560px;
@@ -589,6 +688,9 @@ footer .btn{
     }
     .easy-lesson_img {
         height: 300px;
+    }
+    .form-orders{
+        padding: 30px;
     }
 }
 @media all and (max-width: 600px) {
