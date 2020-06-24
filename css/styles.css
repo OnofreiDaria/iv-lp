@@ -146,6 +146,21 @@ img {
     font-size: 11px;
     text-transform: uppercase;
 }
+/* NAVBAR */
+.navbar {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5413515748096114) 57%, rgba(255,255,255,0) 100%);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #00c781;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #00c781;
+}
+
 /* HEADER */
 
 .logo img {
@@ -497,6 +512,43 @@ footer .btn{
 .form_register-opportunities label {
     color: #1c2e3d;
 }
+
+/* SLIDER */
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 60%;
+}
+.near-bg {
+    width: 100%;
+    background: url("../img/party.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+.near-bg .header-opacity,
+.bg-feel .header-opacity{
+    padding: 50px 0;
+}
+.party_bg {
+    background: url("../img/party3.jpg") no-repeat center;
+}
+.bg-feel {
+    background: url("../img/citrus.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+.btn-store img {
+    height: 50px;
+    width: auto;
+    margin: 0 20px;
+}
+
+.header-bg-business{
+    background: url("../img/citrus.jpg") no-repeat fixed center;
+}
+
+
+
+
+
 @media all and (min-width:1600px) {
     .container {
         max-width: 1560px;
@@ -568,6 +620,10 @@ footer .btn{
     html {
         font-size: 80%;
     }
+    .navbar {
+        background: rgba(0,0,0, .5);
+
+    }
     .header-info {
         padding-top: 30px;
         padding-bottom: 60px;
@@ -612,6 +668,9 @@ footer .btn{
     }
 }
 @media all and (max-width:768px) {
+    .carousel-caption{
+        top: 50%;
+    }
     .mb-100 {
         margin-bottom: 50px;
     }
@@ -697,12 +756,29 @@ footer .btn{
     html {
         font-size: 70%;
     }
+    .navbar-brand.logo img {
+        height: 50px;
+    }
+    .carousel-caption h1 {
+        font-size: 4rem;
+    }
     .easy-lesson_block {
         width: 100%;
     }
 }
 @media all and (max-width:480px) {
+    .carousel-caption h1 {
+        font-size: 3rem;
+    }
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
     .btn-green {
         width: 100%;
+    }
+}
+@media all and (max-width:380px) {
+    .carousel-caption{
+        top: 45%;
     }
 }
