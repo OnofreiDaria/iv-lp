@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d27351b6-53e6-40f1-8c85-0072fe8a79c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/get-iv-service.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/btn-app-store.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/btn-g-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/citrus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/connect2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/party.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/party3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobilev-business.html" afterDir="false" />
+    <list default="true" id="d27351b6-53e6-40f1-8c85-0072fe8a79c6" name="Default Changelist" comment="added links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/around-clock-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/around-clock-service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get-iv-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/get-iv-service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobilev-business.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobilev-business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opportunities.html" beforeDir="false" afterPath="$PROJECT_DIR$/opportunities.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +20,11 @@
   </component>
   <component name="ProjectId" id="1QKV9xCncwnrYG8kktefkrFt4eK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -41,18 +37,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Daria\bota\iv-lp\img" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -86,6 +70,7 @@
       <workItem from="1568005384755" duration="5593000" />
       <workItem from="1568447263222" duration="659000" />
       <workItem from="1568895812765" duration="7000" />
+      <workItem from="1593003465933" duration="1804000" />
     </task>
     <task id="LOCAL-00001" summary="some text changes">
       <created>1562002142228</created>
@@ -101,28 +86,46 @@
       <option name="project" value="LOCAL" />
       <updated>1564773966203</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add index page">
+      <created>1593003601809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593003601809</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some text changes" />
     <MESSAGE value="add opportunities page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add opportunities page" />
+    <MESSAGE value="add index page" />
+    <MESSAGE value="added links" />
+    <option name="LAST_COMMIT_MESSAGE" value="added links" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1593004251658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593004251658" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593003609439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593003609439" />
   </component>
 </project>

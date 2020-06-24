@@ -74,6 +74,7 @@ a:active,
 a:focus {
     text-decoration: none;
     transition: .2s;
+    color: #fff;
 }
 img {
     width: 100%;
